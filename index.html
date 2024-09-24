@@ -53,6 +53,10 @@
                 a.trending {
                     @apply block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 bg-gray-500 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700
                 }
+
+                .pricing-card {
+                    @apply flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white;
+                }
             }
         </style>
     </head>
@@ -535,28 +539,23 @@
                     <div
                         class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
                         <h2
-                            class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Designed
-                            for business teams like yours</h2>
+                            class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Choose your plan</h2>
                         <p
-                            class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">Here
-                            at Flowbite we focus on markets where technology,
-                            innovation, and capital can unlock long-term value
-                            and drive economic growth.</p>
+                            class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">
+                            We focus on delivering the best recipies you can get.</p>
                     </div>
                     <div
                         class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
                         <!-- Pricing Card -->
                         <div
-                            class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+                            class="pricing-card">
                             <h3 class="mb-4 text-2xl font-semibold">Starter</h3>
                             <p
-                                class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Best
-                                option for personal use & for your next
-                                project.</p>
+                                class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Lots of easy-to-cook recipies for no charge.</p>
                             <div
                                 class="flex justify-center items-baseline my-8">
                                 <span
-                                    class="mr-2 text-5xl font-extrabold">$29</span>
+                                    class="mr-2 text-5xl font-extrabold">$0</span>
                                 <span
                                     class="text-gray-500 dark:text-gray-400">/month</span>
                             </div>
@@ -571,71 +570,78 @@
                                             fill-rule="evenodd"
                                             d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
                                             clip-rule="evenodd"></path></svg>
-                                    <span>Individual configuration</span>
+                                    <span>hundreds of easy recipes</span>
                                 </li>
                                 <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg
-                                        class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
-                                        fill="currentColor" viewBox="0 0 20 20"
-                                        xmlns="http://www.w3.org/2000/svg"><path
-                                            fill-rule="evenodd"
-                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                            clip-rule="evenodd"></path></svg>
-                                    <span>No setup, or hidden fees</span>
+                                    <svg class="w-5 h-5"
+                                     fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                                    <span>tips for complete menus</span>
                                 </li>
                                 <li class="flex items-center space-x-3">
                                     <!-- Icon -->
-                                    <svg
-                                        class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
-                                        fill="currentColor" viewBox="0 0 20 20"
-                                        xmlns="http://www.w3.org/2000/svg"><path
-                                            fill-rule="evenodd"
-                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                            clip-rule="evenodd"></path></svg>
-                                    <span>Team size: <span
-                                            class="font-semibold">1
-                                            developer</span></span>
-                                </li>
-                                <li class="flex items-center space-x-3">
-                                    <!-- Icon -->
-                                    <svg
-                                        class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
-                                        fill="currentColor" viewBox="0 0 20 20"
-                                        xmlns="http://www.w3.org/2000/svg"><path
-                                            fill-rule="evenodd"
-                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                            clip-rule="evenodd"></path></svg>
-                                    <span>Premium support: <span
-                                            class="font-semibold">6
-                                            months</span></span>
-                                </li>
-                                <li class="flex items-center space-x-3">
-                                    <!-- Icon -->
-                                    <svg
-                                        class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
-                                        fill="currentColor" viewBox="0 0 20 20"
-                                        xmlns="http://www.w3.org/2000/svg"><path
-                                            fill-rule="evenodd"
-                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                            clip-rule="evenodd"></path></svg>
-                                    <span>Free updates: <span
-                                            class="font-semibold">6
-                                            months</span></span>
+                                    <svg class="w-5 h-5"
+                                     fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                                    <span>special recipies curated by our <span
+                                            class="font-semibold">Master Chef</span></span>
                                 </li>
                             </ul>
-                            <a href="#"
-                                class="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get
-                                started</a>
+                            <a href="#contact" class="wbs-button  wbs-button-primary">Get started</a>
                         </div>
                         <!-- Pricing Card -->
                         <div
-                            class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-                            <h3 class="mb-4 text-2xl font-semibold">Company</h3>
+                            class="pricing-card">
+                            <h3 class="mb-4 text-2xl font-semibold">Ambitious</h3>
                             <p
-                                class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Relevant
-                                for multiple users, extended & premium
-                                support.</p>
+                                class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Recipies for higher demands with special tips from our chef.</p>
+                            <div
+                                class="flex justify-center items-baseline my-8">
+                                <span
+                                    class="mr-2 text-5xl font-extrabold">$49</span>
+                                <span
+                                    class="text-gray-500 dark:text-gray-400">/month</span>
+                            </div>
+                            <!-- List -->
+                            <ul role="list" class="mb-8 space-y-4 text-left">
+                                <li class="flex items-center space-x-3">
+                                    <!-- Icon -->
+                                    <svg
+                                        class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                                        fill="currentColor" viewBox="0 0 20 20"
+                                        xmlns="http://www.w3.org/2000/svg"><path
+                                            fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd"></path></svg>
+                                    <span>hundreds of easy recipes</span>
+                                </li>
+                                <li class="flex items-center space-x-3">
+                                    <!-- Icon -->
+                                    <svg
+                                        class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                                        fill="currentColor" viewBox="0 0 20 20"
+                                        xmlns="http://www.w3.org/2000/svg"><path
+                                            fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd"></path></svg>
+                                    <span>tips for complete menus</span>
+                                </li>
+                                <li class="flex items-center space-x-3">
+                                    <!-- Icon -->
+                                    <svg class="w-5 h-5"
+                                     fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                                    <span>special recipies curated by our <span
+                                            class="font-semibold">Master Chef</span></span>
+                                </li>
+                            </ul>
+                            <a href="#contact" class="wbs-button  wbs-button-primary">Get started</a>
+                        </div>
+                        <!-- Pricing Card -->
+                        <div
+                            class="pricing-card">
+                            <h3
+                                class="mb-4 text-2xl font-semibold">Gourmet</h3>
+                            <p
+                                class="font-light text-gray-500 sm:text-lg dark:text-gray-400">High quality recipies curated by our master chef.</p>
                             <div
                                 class="flex justify-center items-baseline my-8">
                                 <span
@@ -654,7 +660,7 @@
                                             fill-rule="evenodd"
                                             d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
                                             clip-rule="evenodd"></path></svg>
-                                    <span>Individual configuration</span>
+                                    <span>hundreds of easy recipes</span>
                                 </li>
                                 <li class="flex items-center space-x-3">
                                     <!-- Icon -->
@@ -665,7 +671,7 @@
                                             fill-rule="evenodd"
                                             d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
                                             clip-rule="evenodd"></path></svg>
-                                    <span>No setup, or hidden fees</span>
+                                    <span>tips for complete menus</span>
                                 </li>
                                 <li class="flex items-center space-x-3">
                                     <!-- Icon -->
@@ -676,124 +682,11 @@
                                             fill-rule="evenodd"
                                             d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
                                             clip-rule="evenodd"></path></svg>
-                                    <span>Team size: <span
-                                            class="font-semibold">10
-                                            developers</span></span>
-                                </li>
-                                <li class="flex items-center space-x-3">
-                                    <!-- Icon -->
-                                    <svg
-                                        class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
-                                        fill="currentColor" viewBox="0 0 20 20"
-                                        xmlns="http://www.w3.org/2000/svg"><path
-                                            fill-rule="evenodd"
-                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                            clip-rule="evenodd"></path></svg>
-                                    <span>Premium support: <span
-                                            class="font-semibold">24
-                                            months</span></span>
-                                </li>
-                                <li class="flex items-center space-x-3">
-                                    <!-- Icon -->
-                                    <svg
-                                        class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
-                                        fill="currentColor" viewBox="0 0 20 20"
-                                        xmlns="http://www.w3.org/2000/svg"><path
-                                            fill-rule="evenodd"
-                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                            clip-rule="evenodd"></path></svg>
-                                    <span>Free updates: <span
-                                            class="font-semibold">24
-                                            months</span></span>
+                                    <span>special recipies curated by our <span
+                                            class="font-semibold">Master Chef</span></span>
                                 </li>
                             </ul>
-                            <a href="#"
-                                class="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get
-                                started</a>
-                        </div>
-                        <!-- Pricing Card -->
-                        <div
-                            class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-                            <h3
-                                class="mb-4 text-2xl font-semibold">Enterprise</h3>
-                            <p
-                                class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Best
-                                for large scale uses and extended redistribution
-                                rights.</p>
-                            <div
-                                class="flex justify-center items-baseline my-8">
-                                <span
-                                    class="mr-2 text-5xl font-extrabold">$499</span>
-                                <span
-                                    class="text-gray-500 dark:text-gray-400">/month</span>
-                            </div>
-                            <!-- List -->
-                            <ul role="list" class="mb-8 space-y-4 text-left">
-                                <li class="flex items-center space-x-3">
-                                    <!-- Icon -->
-                                    <svg
-                                        class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
-                                        fill="currentColor" viewBox="0 0 20 20"
-                                        xmlns="http://www.w3.org/2000/svg"><path
-                                            fill-rule="evenodd"
-                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                            clip-rule="evenodd"></path></svg>
-                                    <span>Individual configuration</span>
-                                </li>
-                                <li class="flex items-center space-x-3">
-                                    <!-- Icon -->
-                                    <svg
-                                        class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
-                                        fill="currentColor" viewBox="0 0 20 20"
-                                        xmlns="http://www.w3.org/2000/svg"><path
-                                            fill-rule="evenodd"
-                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                            clip-rule="evenodd"></path></svg>
-                                    <span>No setup, or hidden fees</span>
-                                </li>
-                                <li class="flex items-center space-x-3">
-                                    <!-- Icon -->
-                                    <svg
-                                        class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
-                                        fill="currentColor" viewBox="0 0 20 20"
-                                        xmlns="http://www.w3.org/2000/svg"><path
-                                            fill-rule="evenodd"
-                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                            clip-rule="evenodd"></path></svg>
-                                    <span>Team size: <span
-                                            class="font-semibold">100+
-                                            developers</span></span>
-                                </li>
-                                <li class="flex items-center space-x-3">
-                                    <!-- Icon -->
-                                    <svg
-                                        class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
-                                        fill="currentColor" viewBox="0 0 20 20"
-                                        xmlns="http://www.w3.org/2000/svg"><path
-                                            fill-rule="evenodd"
-                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                            clip-rule="evenodd"></path></svg>
-                                    <span>Premium support: <span
-                                            class="font-semibold">36
-                                            months</span></span>
-                                </li>
-                                <li class="flex items-center space-x-3">
-                                    <!-- Icon -->
-                                    <svg
-                                        class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
-                                        fill="currentColor" viewBox="0 0 20 20"
-                                        xmlns="http://www.w3.org/2000/svg"><path
-                                            fill-rule="evenodd"
-                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                            clip-rule="evenodd"></path></svg>
-                                    <span>Free updates: <span
-                                            class="font-semibold">36
-                                            months</span></span>
-                                </li>
-                            </ul>
-                            <a href="#"
-                                class="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get
-                                started</a>
+                            <a href="#contact" class="wbs-button  wbs-button-primary">Get started</a>
                         </div>
                     </div>
                 </div>
@@ -802,13 +695,10 @@
             <section id="contact" class="bg-white dark:bg-gray-900">
                 <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
                     <h2
-                        class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact
-                        Us</h2>
+                        class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Get started now</h2>
                     <p
-                        class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Got
-                        a technical issue? Want to send feedback about a beta
-                        feature? Need details about our Business plan? Let us
-                        know.</p>
+                        class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
+                        Subscribe now to  get access to all our wonderful recipies.</p>
                     <form action="#" class="space-y-8">
                         <div>
                             <label for="email"
@@ -816,7 +706,7 @@
                                 email</label>
                             <input type="email" id="email"
                                 class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-                                placeholder="name@flowbite.com" required>
+                                placeholder="name@yoursite.com" required>
                         </div>
                         <div>
                             <label for="subject"
@@ -835,7 +725,7 @@
                                 placeholder="Leave a comment..."></textarea>
                         </div>
                         <button type="submit"
-                            class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send
+                            class="wbs-button wbs-button-primary">Send
                             message</button>
                     </form>
                 </div>
