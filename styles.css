@@ -2,3 +2,7 @@
 
 /* import the font */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.textshadow {
+    text-shadow: 0 5px 10px rgba(0,0,0,1);
+}
