@@ -8,6 +8,53 @@
         <script src="tailwind.config.js"></script>
         <link rel="stylesheet" href="styles.css">
         <title>Document</title>
+        <style type="text/tailwindcss">
+            @layer base {
+                .wbs-button {
+                    @apply
+                        inline-flex 
+                        justify-center
+                        items-center 
+                        py-3 
+                        px-5 
+                        text-base 
+                        font-medium 
+                        text-center 
+                        rounded-lg 
+                        border 
+                        border-gray-300 
+                        focus:ring-4 
+                        focus:ring-gray-100 
+                        dark:text-white 
+                        dark:border-gray-700 
+                        dark:hover:bg-gray-700 
+                        dark:focus:ring-gray-800
+                }
+                .wbs-button-primary  {
+                    @apply 
+                        text-white 
+                        bg-olive-drab-700 
+                        hover:bg-olive-drab-800
+                }
+                .wbs-button-highlight  {
+                    @apply 
+                        text-white 
+                        bg-mexican-red-700 
+                        hover:bg-mexican-red-800
+                }
+                .wbs-nav-link {
+                    @apply block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700
+                }
+
+                h2 {
+                    @apply text-mexican-red-500;
+                }
+
+                a.trending {
+                    @apply block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 bg-gray-500 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700
+                }
+            }
+        </style>
     </head>
     <body class="bg-gray-100">
 
