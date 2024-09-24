@@ -8,7 +8,10 @@
  * #BF4904
  * #26140D
  * and exported via https://uicolors.app/create 
+ * 
+ * use those like 'bg-mexican-red-300' or 'text-mexican-red-300
  */
+
 tailwind.config = {
   darkMode: 'class',
   theme: {
