@@ -3,10 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,container-queries"></script>
+    <script
+      src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,container-queries"></script>
     <script src="tailwind.config.js"></script>
     <link rel="stylesheet" href="styles.css" />
-    <title>Document</title>
+    <title>Love At First Bite</title>
     <style type="text/tailwindcss">
       @layer base {
         .wbs-button {
@@ -39,7 +40,7 @@
                         hover:bg-mexican-red-800;
         }
         .wbs-nav-link {
-          @apply block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700;
+          @apply block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-mexican-red-800 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700;
         }
 
         h2 {
@@ -51,7 +52,7 @@
         }
 
         .pricing-card {
-          @apply flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white;
+          @apply flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow  hover:shadow-xl dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white;
         }
       }
     </style>
@@ -59,84 +60,71 @@
   <body class="bg-gray-100">
     <header>
       <nav
-        class="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800"
-      >
+        class="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
         <div
-          class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl"
-        >
-          <a href="https://flowbite.com" class="flex items-center">
+          class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+          <a href="#" class="flex items-center">
             <img
-              src="https://flowbite.com/docs/images/logo.svg"
-              class="mr-3 h-6 sm:h-9"
-              alt="Flowbite Logo"
-            />
+              src="images/shark-svgrepo-com.svg"
+              class="mr-3 h-12 sm:h-9"
+              alt="Flowbite Logo" />
             <span
-              class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
-              >Love at first bite</span
-            >
+              class="self-center text-xl font-semibold whitespace-nowrap dark:text-white text-olive-drab-800 hover:text-olive-drab-700">Love
+              at first bite</span>
           </a>
           <div class="flex items-center lg:order-2">
             <a
               href="#"
-              class="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800"
-              >Log in</a
-            >
-            <a href="#pricing" class="wbs-button wbs-button-primary"
-              >Get started</a
-            >
+              class="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">Log
+              in</a>
+            <a href="#pricing" class="wbs-button wbs-button-primary">Get
+              started</a>
             <button
               id="mobile-menu-opener"
               data-collapse-toggle="mobile-menu-2"
               type="button"
               class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
               aria-controls="mobile-menu-2"
-              aria-expanded="false"
-            >
+              aria-expanded="false">
               <span class="sr-only">Open main menu</span>
               <svg
                 class="w-6 h-6"
                 fill="currentColor"
                 viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+                xmlns="http://www.w3.org/2000/svg">
                 <path
                   fill-rule="evenodd"
                   d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                  clip-rule="evenodd"
-                ></path>
+                  clip-rule="evenodd"></path>
               </svg>
               <svg
                 class="hidden w-6 h-6"
                 fill="currentColor"
                 viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+                xmlns="http://www.w3.org/2000/svg">
                 <path
                   fill-rule="evenodd"
                   d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                  clip-rule="evenodd"
-                ></path>
+                  clip-rule="evenodd"></path>
               </svg>
             </button>
           </div>
           <div
             class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
-            id="mobile-menu-2"
-          >
+            id="mobile-menu-2">
             <ul
-              class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0"
-            >
+              class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
               <li>
                 <a href="#" class="wbs-nav-link">Home</a>
               </li>
               <li>
-                <a href="#" class="wbs-nav-link">Recipies</a>
+                <a href="#trending-1" class="wbs-nav-link">Recipies</a>
               </li>
               <li>
-                <a href="#" class="wbs-nav-link">Categories</a>
+                <a href="#categories" class="wbs-nav-link">Categories</a>
               </li>
               <li>
-                <a href="#" class="wbs-nav-link">About</a>
+                <a href="#footer" class="wbs-nav-link">About</a>
               </li>
             </ul>
           </div>
@@ -144,64 +132,37 @@
       </nav>
     </header>
 
-        <nav id="nav-categories"
-                class="bg-white dark:bg-gray-800 min-h-fullplace-items-center max-w-screen-xl mx-auto">
-                <div class="text-white flex flex-row gap-4 overflow-y-auto flex items-center">
-                    <a href="#" class="bg-red-800 px-3 py-1 rounded-xl">Burgers</a>
-                    <a href="#" class="bg-red-800 px-3 py-1 rounded-xl">Curries</a>
-                    <a href="#" class="bg-red-800 px-3 py-1 rounded-xl">Desserts</a>
-                    <a href="#" class="bg-red-800 px-3 py-1 rounded-xl">Grilled</a>
-                    <a href="#" class="bg-red-800 px-3 py-1 rounded-xl">Noodles</a>
-                    <a href="#" class="bg-red-800 px-3 py-1 rounded-xl">Pastas</a>
-                    <a href="#" class="bg-red-800 px-3 py-1 rounded-xl">Pies</a>
-                    <a href="#" class="bg-red-800 px-3 py-1 rounded-xl">Pizzas</a>
-                    <a href="#" class="bg-red-800 px-3 py-1 rounded-xl">Salades</a>
-                    <a href="#" class="bg-red-800 px-3 py-1 rounded-xl">SaltySnacks</a>
-                    <a href="#" class="bg-red-800 px-3 py-1 rounded-xl">sandwiches</a>
-                    <a href="#" class="bg-red-800 px-3 py-1 rounded-xl">Sauces/Dips</a>
-                    <a href="#" class="bg-red-800 px-3 py-1 rounded-xl">Seafood</a>
-                    <a href="#" class="bg-red-800 px-3 py-1 rounded-xl">Soups</a>
-                    <a href="#" class="bg-red-800 px-3 py-1 rounded-xl">Sweets</a>
-                    <a href="#" class="bg-red-800 px-3 py-1 rounded-xl">Vegies</a>
-                    <a href="#" class="bg-red-800 px-3 py-1 rounded-xl">Wraps</a>
-                    <a href="#" class="bg-red-800 px-3 py-1 rounded-xl">Vegies</a>
-                </div>
-        </nav>
-
     <main>
-      <section
-        id="hero"
-        class="bg-white dark:bg-gray-900 bg-[url(images/food_gerd/high-res/IMG_3937.jpg)] bg-no-repeat bg-cover bg-top min-h-fullplace-items-center max-w-screen-xl mx-auto"
-      >
+      <!--
+      <section id="hero"
+        class="bg-white dark:bg-gray-900 bg-[url(images/food_gerd/high-res/IMG_3937.jpg)] bg-no-repeat bg-cover bg-top min-h-fullplace-items-center max-w-screen-xl mx-auto">
+      -->
+      <section id="hero"
+        class="bg-white dark:bg-gray-900 bg-[url(images/food_gerd/high-res/IMG_3937.jpg)] bg-no-repeat bg-cover bg-top min-h-fullplace-items-center w-full mx-auto">
         <div
-          class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12"
-        >
+          class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
           <h1
-            class="textshadow mb-4 lg:mt-32 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl dark:text-white"
-          >
+            class="textshadow mb-4 lg:mt-32 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl dark:text-white">
             Hungry yet?
           </h1>
           <p
-            class="textshadow mb-8 text-lg font-normal text-gray-100 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400"
-          >
+            class="textshadow mb-8 text-lg font-normal text-gray-100 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
             Check out our recipies for every taste!
           </p>
           <div
-            class="flex flex-col mb-8 lg:mb-32 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4"
-          >
-            <a id="opener" href="#" class="wbs-button wbs-button-highlight">
+            class="flex flex-col mb-8 lg:mb-32 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+            <a id="opener" href="#categories"
+              class="wbs-button wbs-button-highlight">
               Learn more
               <svg
                 class="ml-2 -mr-1 w-5 h-5"
                 fill="currentColor"
                 viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+                xmlns="http://www.w3.org/2000/svg">
                 <path
                   fill-rule="evenodd"
                   d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                  clip-rule="evenodd"
-                ></path>
+                  clip-rule="evenodd"></path>
               </svg>
             </a>
             <a href="#video" class="wbs-button wbs-button-primary">
@@ -209,11 +170,9 @@
                 class="mr-2 -ml-1 w-5 h-5"
                 fill="currentColor"
                 viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+                xmlns="http://www.w3.org/2000/svg">
                 <path
-                  d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z"
-                ></path>
+                  d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z"></path>
               </svg>
               Watch video
             </a>
@@ -221,20 +180,53 @@
         </div>
       </section>
 
-            <nav id="nav-trending">
-                
-            </nav>
+      <nav id="nav-categories"
+        class="my-8 bg-white dark:bg-gray-800 min-h-fullplace-items-center max-w-screen-xl mx-auto">
+        <div
+          class="text-white flex flex-row gap-4 overflow-y-auto flex items-center">
+          <a href="#"
+            class="bg-mexican-red-800 px-3 py-1 rounded-xl">Burgers</a>
+          <a href="#"
+            class="bg-mexican-red-800 px-3 py-1 rounded-xl">Curries</a>
+          <a href="#"
+            class="bg-mexican-red-800 px-3 py-1 rounded-xl">Desserts</a>
+          <a href="#"
+            class="bg-mexican-red-800 px-3 py-1 rounded-xl">Grilled</a>
+          <a href="#"
+            class="bg-mexican-red-800 px-3 py-1 rounded-xl">Noodles</a>
+          <a href="#" class="bg-mexican-red-800 px-3 py-1 rounded-xl">Pastas</a>
+          <a href="#" class="bg-mexican-red-800 px-3 py-1 rounded-xl">Pies</a>
+          <a href="#" class="bg-mexican-red-800 px-3 py-1 rounded-xl">Pizzas</a>
+          <a href="#"
+            class="bg-mexican-red-800 px-3 py-1 rounded-xl">Salades</a>
+          <a href="#"
+            class="bg-mexican-red-800 px-3 py-1 rounded-xl">SaltySnacks</a>
+          <a href="#"
+            class="bg-mexican-red-800 px-3 py-1 rounded-xl">sandwiches</a>
+          <a href="#"
+            class="bg-mexican-red-800 px-3 py-1 rounded-xl">Sauces/Dips</a>
+          <a href="#"
+            class="bg-mexican-red-800 px-3 py-1 rounded-xl">Seafood</a>
+          <a href="#" class="bg-mexican-red-800 px-3 py-1 rounded-xl">Soups</a>
+          <a href="#" class="bg-mexican-red-800 px-3 py-1 rounded-xl">Sweets</a>
+          <a href="#" class="bg-mexican-red-800 px-3 py-1 rounded-xl">Vegies</a>
+          <a href="#" class="bg-mexican-red-800 px-3 py-1 rounded-xl">Wraps</a>
+          <a href="#" class="bg-mexican-red-800 px-3 py-1 rounded-xl">Vegies</a>
+        </div>
+      </nav>
+
+      <nav id="nav-trending">
+        <!---->
+      </nav>
 
       <section id="video" class="bg-olive-drab-700 my-8">
         <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
           <h1
-            class="textshadow mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-3xl lg:text-4xl text-white dark:text-white text-center"
-          >
+            class="textshadow mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-3xl lg:text-4xl text-white dark:text-white text-center">
             Try it yourself
           </h1>
           <p
-            class="textshadow mb-8 text-lg font-normal text-gray-100 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 text-center"
-          >
+            class="textshadow mb-8 text-lg font-normal text-gray-100 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 text-center">
             It's easyer than you think!
           </p>
           <video
@@ -242,194 +234,264 @@
             autoplay="{true}"
             loop
             muted
-            class="w-auto min-w-full min-h-full"
-          ></video>
+            class="w-auto min-w-full min-h-full"></video>
         </div>
       </section>
 
-            <section id="trending-1" class="bg-gradient-to-tr from-amber-300 to-lime-400 w-full min-h-screen flex flex-col lg:flex-row items-center lg:justify-between relative p-6">
+      <section id="trending-1"
+        class="bg-gradient-to-tr from-amber-300 to-lime-400 w-full mx-auto min-h-screen flex flex-col lg:flex-row items-center lg:justify-between relative p-6">
 
-                <h2 class="text-3xl font-extrabold text-center w-full mb-6 lg:mb-0 lg:absolute lg:top-10">Lava Cake</h2>
-              
-                <img class="object-contain w-64 h-64 mb-6 lg:mb-0 lg:w-96 lg:h-96 lg:absolute lg:left-5 lg:top-32" src="images/food_gerd/high-res/IMG_0001H.webp" alt="Lava Cake">
+        <h2
+          class="text-3xl font-extrabold text-center w-full mb-6 lg:mb-0 lg:absolute lg:top-10">Lava
+          Cake</h2>
 
-                <div class="w-full lg:w-1/2 lg:h-[50vh] flex flex-col gap-4 lg:absolute lg:right-5 lg:top-32">
+        <img
+          class="object-contain w-64 h-64 mb-6 lg:mb-0 lg:w-96 lg:h-96 lg:absolute lg:left-5 lg:top-32"
+          src="images/food_gerd/high-res/IMG_0001H.webp" alt="Lava Cake">
 
-                  <div class="lg:hidden text-white bg-green-950 p-4 rounded-lg">
-                    <h3 class="font-semibold text-[#B22222]">Ingredients</h3>
-                    <p>Chocolate, Butter, Eggs, Sugar, Flour, Cocoa powder, Salt</p>
-                  </div>
-                  <button class="hidden lg:block bg-green-950 w-full h-1/3 opacity-50 rounded-xl focus:h-full relative group">
-                    <div class="flex gap-1 absolute left-5 group-focus:top-2 top-9 transition-all">
-                      <span class="w-6 h-6 bg-gray-50 rounded-full"></span>
-                      <h3 class="text-white">Ingredients</h3>
-                    </div>
-                    <p class="text-xs transition-all text-white opacity-0 group-focus:opacity-100">Chocolate, Butter, Eggs, Sugar, Flour, Cocoa powder, Salt</p>
-                  </button>
+        <div
+          class="w-full lg:w-1/2 lg:h-[50vh] flex flex-col gap-4 lg:absolute lg:right-5 lg:top-32">
 
-                  <div class="lg:hidden text-white bg-green-950 p-4 rounded-lg">
-                    <h3 class="font-semibold text-[#B22222]">Preparation</h3>
-                    <p>Melt the chocolate and butter together using a double boiler. Beat the eggs and sugar together, then add the chocolate and remaining ingredients. Bake until the sides are set but the center is jiggly.</p>
-                  </div>
-                  <button class="hidden lg:block bg-green-950 w-full h-1/3 opacity-50 rounded-xl focus:h-full relative group">
-                    <div class="flex gap-1 absolute left-5 group-focus:top-2 top-9 transition-all">
-                      <span class="w-6 h-6 bg-gray-50 rounded-full"></span>
-                      <h3 class="text-white">Preparation</h3>
-                    </div>
-                    <p class="text-xs transition-all text-white opacity-0 group-focus:opacity-100">Melt the chocolate and butter together using a double boiler. Beat the eggs and sugar together, then add the chocolate and remaining ingredients. Bake until the sides are set but the center is jiggly.</p>
-                  </button>
+          <div class="lg:hidden text-white bg-green-950 p-4 rounded-lg">
+            <h3 class="font-semibold text-[#B22222]">Ingredients</h3>
+            <p>Chocolate, Butter, Eggs, Sugar, Flour, Cocoa powder, Salt</p>
+          </div>
+          <button
+            class="hidden lg:block bg-green-950 w-full h-1/3 opacity-50 rounded-xl focus:h-full relative group">
+            <div
+              class="flex gap-1 absolute left-5 group-focus:top-2 top-9 transition-all">
+              <span class="w-6 h-6 bg-gray-50 rounded-full"></span>
+              <h3 class="text-white">Ingredients</h3>
+            </div>
+            <p
+              class="text-xs transition-all text-white opacity-0 group-focus:opacity-100">Chocolate,
+              Butter, Eggs, Sugar, Flour, Cocoa powder, Salt</p>
+          </button>
 
-                  <div class="lg:hidden text-white bg-green-950 p-4 rounded-lg">
-                    <h3 class="font-semibold text-[#B22222]">Serving</h3>
-                    <p>For a gorgeous presentation, dust these lava cakes with powdered sugar and serve them alongside bright red fruits (such as strawberries or raspberries). A scoop of vanilla ice cream and a drizzle of chocolate sauce will take things over the top.</p>
-                  </div>
-                  <button class="hidden lg:block bg-green-950 w-full h-1/3 opacity-50 rounded-xl focus:h-full relative group">
-                    <div class="flex gap-1 absolute left-5 group-focus:top-2 top-9 transition-all">
-                      <span class="w-6 h-6 bg-gray-50 rounded-full"></span>
-                      <h3 class="text-white">Serving</h3>
-                    </div>
-                    <p class="text-xs transition-all text-white opacity-0 group-focus:opacity-100">For a gorgeous presentation, dust these lava cakes with powdered sugar and serve them alongside bright red fruits (such as strawberries or raspberries). A scoop of vanilla ice cream and a drizzle of chocolate sauce will take things over the top.</p>
-                  </button>
-              
+          <div class="lg:hidden text-white bg-green-950 p-4 rounded-lg">
+            <h3 class="font-semibold text-[#B22222]">Preparation</h3>
+            <p>Melt the chocolate and butter together using a double boiler.
+              Beat the eggs and sugar together, then add the chocolate and
+              remaining ingredients. Bake until the sides are set but the center
+              is jiggly.</p>
+          </div>
+          <button
+            class="hidden lg:block bg-green-950 w-full h-1/3 opacity-50 rounded-xl focus:h-full relative group">
+            <div
+              class="flex gap-1 absolute left-5 group-focus:top-2 top-9 transition-all">
+              <span class="w-6 h-6 bg-gray-50 rounded-full"></span>
+              <h3 class="text-white">Preparation</h3>
+            </div>
+            <p
+              class="text-xs transition-all text-white opacity-0 group-focus:opacity-100">Melt
+              the chocolate and butter together using a double boiler. Beat the
+              eggs and sugar together, then add the chocolate and remaining
+              ingredients. Bake until the sides are set but the center is
+              jiggly.</p>
+          </button>
+
+          <div class="lg:hidden text-white bg-green-950 p-4 rounded-lg">
+            <h3 class="font-semibold text-[#B22222]">Serving</h3>
+            <p>For a gorgeous presentation, dust these lava cakes with powdered
+              sugar and serve them alongside bright red fruits (such as
+              strawberries or raspberries). A scoop of vanilla ice cream and a
+              drizzle of chocolate sauce will take things over the top.</p>
+          </div>
+          <button
+            class="hidden lg:block bg-green-950 w-full h-1/3 opacity-50 rounded-xl focus:h-full relative group">
+            <div
+              class="flex gap-1 absolute left-5 group-focus:top-2 top-9 transition-all">
+              <span class="w-6 h-6 bg-gray-50 rounded-full"></span>
+              <h3 class="text-white">Serving</h3>
+            </div>
+            <p
+              class="text-xs transition-all text-white opacity-0 group-focus:opacity-100">For
+              a gorgeous presentation, dust these lava cakes with powdered sugar
+              and serve them alongside bright red fruits (such as strawberries
+              or raspberries). A scoop of vanilla ice cream and a drizzle of
+              chocolate sauce will take things over the top.</p>
+          </button>
+
+        </div>
+      </section>
+
+      <!-- Categories -->
+      <section id="categories" class="bg-white dark:bg-gray-900">
+        <div
+          class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
+
+          <!--   Category Header  -->
+          <div
+            class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
+            <h2
+              class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Categories</h2>
+            <p
+              class="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">Explore
+              our diverse range of categories, offering delicious recipes for
+              every occasion!</p>
+          </div>
+          <!-- all categories images and descriptions   -->
+          <div
+            class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
+
+            <!-- Breakfast -->
+            <div
+              class="items-center bg-gray-50 rounded-lg shadow sm:grid sm:grid-cols-2 dark:bg-gray-800 dark:border-gray-700">
+              <a href="#">
+                <div class="image-container">
+                  <img
+                    class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
+                    src="images/breakfast/pexels-life-of-pix-101533.jpg"
+                    alt="Breakfast Avatar">
                 </div>
-              </section>
+              </a>
 
-            
-            <!-- Categories -->
-            <section class="bg-white dark:bg-gray-900">
-                <div
-                    class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
-
-                    <!--   Category Header  -->
-                    <div
-                        class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
-                        <h2
-                            class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Categories</h2>
-                        <p
-                            class="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">Explore our diverse range of categories, offering delicious recipes for every occasion!</p>
-                    </div>
-                    <!-- all categories images and descriptions   -->
-                    <div 
-                        class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
-
-                        <!-- Breakfast -->
-                        <div 
-                            class="items-center bg-gray-50 rounded-lg shadow sm:grid sm:grid-cols-2 dark:bg-gray-800 dark:border-gray-700">
-                            <a href="#">
-                              <div class="image-container">
-                                <img
-                                    class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
-                                    src="images/breakfast/pexels-life-of-pix-101533.jpg"
-                                    alt="Breakfast Avatar">
-                              </div>
-                            </a>
-                           
-                            <div class="p-5">
-                                <h3
-                                    class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                    <a href="#">Breakfast</a>
-                                </h3>
-                                <span
-                                    class="text-gray-500 dark:text-gray-400">Start your day right.</span>
-                                <p
-                                    class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Wake up to energizing breakfast options. Discover nourishing recipes that are quick and delicious for a perfect morning.</p>
-                            </div>
-                        </div>
-                        <!-- Lunch -->  
-                        <div class="items-center bg-gray-50 rounded-lg shadow sm:grid sm:grid-cols-2 dark:bg-gray-800 dark:border-gray-700">
-                              <a href="#">
-                              <div class="image-container">
-                                <img
-                                    class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
-                                    src="images/lunch/pexels-bulbfish-1143754.jpg"
-                                    alt="Lunch  Avatar">
-                                  </div>
-                            </a>
-                
-                            <div class="p-5">
-                                <h3
-                                    class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                    <a href="#">Lunch</a>
-                                </h3>
-                                <span
-                                    class="text-gray-500 dark:text-gray-400">Midday meals made easy.</span>
-                                <p
-                                    class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Keep your afternoons full of energy with satisfying lunch ideas perfect for a quick meal at home or on the go.</p>
-                                <ul class="flex space-x-4 sm:mt-0">
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- Dinner -->
-                        <div class="items-center bg-gray-50 rounded-lg shadow sm:grid sm:grid-cols-2 dark:bg-gray-800 dark:border-gray-700">
-                      
-                            <a href="#">
-                              <div class="image-container">
-                                <img
-                                    class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
-                                    src="images/dinner/pexels-vanmalidate-769289.jpg"
-                                    alt="D inner Avatar">
-                                  </div>
-                            </a>
-                         
-                            <div class="p-5">
-                                <h3
-                                    class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                    <a href="#">Dinner</a>
-                                </h3>
-                                <span
-                                    class="text-gray-500 dark:text-gray-400">End your day with flavor.</span>
-                                <p
-                                    class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">From comforting classics to global flavors, our dinner recipes are perfect for any occasion.</p>
-                                <ul class="flex space-x-4 sm:mt-0">
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- Dessert -->
-                        <div class="items-center bg-gray-50 rounded-lg shadow sm:grid sm:grid-cols-2 dark:bg-gray-800 dark:border-gray-700">
-                            
-                            <a href="#">
-                              <div class="image-container">
-                                <img
-                                    class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
-                                    src="images/dessert/pexels-suzyhazelwood-1126359.jpg"
-                                    alt="Dessert Avatar">
-                                  </div>
-                            </a>
-                        
-                            <div class="p-5">
-                                <h3
-                                    class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                    <a href="#">Desserts</a>
-                                </h3>
-                                <span
-                                    class="text-gray-500 dark:text-gray-400">Treat yourself to sweetness.</span>
-                                <p
-                                    class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400"> Satisfy your sweet tooth with decadent desserts, from rich chocolate cakes to light fruit tarts.</p>
-                                <ul class="flex space-x-4 sm:mt-0">
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+              <div class="p-5">
+                <h3
+                  class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <a href="#">Breakfast</a>
+                </h3>
+                <span
+                  class="text-gray-500 dark:text-gray-400">Start your day
+                  right.</span>
+                <p
+                  class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Wake
+                  up to energizing breakfast options. Discover nourishing
+                  recipes that are quick and delicious for a perfect
+                  morning.</p>
+              </div>
+            </div>
+            <!-- Lunch -->
+            <div
+              class="items-center bg-gray-50 rounded-lg shadow sm:grid sm:grid-cols-2 dark:bg-gray-800 dark:border-gray-700">
+              <a href="#">
+                <div class="image-container">
+                  <img
+                    class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
+                    src="images/lunch/pexels-bulbfish-1143754.jpg"
+                    alt="Lunch  Avatar">
                 </div>
-            </section>
+              </a>
 
-      <section id="pricing" class="bg-white dark:bg-gray-900">
+              <div class="p-5">
+                <h3
+                  class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <a href="#">Lunch</a>
+                </h3>
+                <span
+                  class="text-gray-500 dark:text-gray-400">Midday meals made
+                  easy.</span>
+                <p
+                  class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Keep
+                  your afternoons full of energy with satisfying lunch ideas
+                  perfect for a quick meal at home or on the go.</p>
+                <ul class="flex space-x-4 sm:mt-0">
+                </ul>
+              </div>
+            </div>
+            <!-- Dinner -->
+            <div
+              class="items-center bg-gray-50 rounded-lg shadow sm:grid sm:grid-cols-2 dark:bg-gray-800 dark:border-gray-700">
+
+              <a href="#">
+                <div class="image-container">
+                  <img
+                    class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
+                    src="images/dinner/pexels-vanmalidate-769289.jpg"
+                    alt="D inner Avatar">
+                </div>
+              </a>
+
+              <div class="p-5">
+                <h3
+                  class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <a href="#">Dinner</a>
+                </h3>
+                <span
+                  class="text-gray-500 dark:text-gray-400">End your day with
+                  flavor.</span>
+                <p
+                  class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">From
+                  comforting classics to global flavors, our dinner recipes are
+                  perfect for any occasion.</p>
+                <ul class="flex space-x-4 sm:mt-0">
+                </ul>
+              </div>
+            </div>
+            <!-- Dessert -->
+            <div
+              class="items-center bg-gray-50 rounded-lg shadow sm:grid sm:grid-cols-2 dark:bg-gray-800 dark:border-gray-700">
+
+              <a href="#">
+                <div class="image-container">
+                  <img
+                    class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
+                    src="images/dessert/pexels-suzyhazelwood-1126359.jpg"
+                    alt="Dessert Avatar">
+                </div>
+              </a>
+
+              <div class="p-5">
+                <h3
+                  class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <a href="#">Desserts</a>
+                </h3>
+                <span
+                  class="text-gray-500 dark:text-gray-400">Treat yourself to
+                  sweetness.</span>
+                <p
+                  class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
+                  Satisfy your sweet tooth with decadent desserts, from rich
+                  chocolate cakes to light fruit tarts.</p>
+                <ul class="flex space-x-4 sm:mt-0">
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="chef" class="bg-mexican-red-700">
+        <div
+          class="grid gap-8 my-6 lg:my-16 py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+          <div class="grid gap-8 md:grid-cols-[2fr,1fr]">
+            <div class>
+              <h2
+                class="textshadow text-white mb-4 lg:mt-32 text-3xl font-extrabold tracking-tight leading-none md:text-4xl dark:text-white">
+                Take a good 
+                <svg fill="#ffffff" width="3rem" height="100%" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" class="w-8 w-10 md:w-20 inline-block">
+                  <title>bite</title>
+                  <path d="M16.096 1.261c-6.81 4.326-11.739 16.25-11.739 30.186h23.418c0-13.935-4.869-25.86-11.679-30.186zM9.431 16.452l1.146 0.958-0.393-2.198c0.46-0.685 0.95-1.292 1.465-1.811l1.201 1.708 0.246-2.889c0.587-0.372 1.198-0.637 1.826-0.783l1.144 2.262 1.144-2.262c0.624 0.145 1.23 0.407 1.814 0.776l0.258 3.029 1.255-1.786c0.495 0.507 0.966 1.095 1.41 1.755l-0.392 2.198 1.146-0.958c1.523 2.766 2.627 6.468 3.094 10.664-0.626-2.009-1.659-3.774-2.975-5.146l0.25-2.235-1.6 1.042c-0.381-0.283-0.777-0.537-1.188-0.759l-0.208-2.556-1.641 1.801c-0.456-0.13-0.924-0.222-1.401-0.276l-0.968-2.074-0.968 2.074c-0.508 0.057-1.006 0.159-1.49 0.302l-1.55-1.701-0.197 2.425c-0.415 0.224-0.815 0.479-1.199 0.765l-1.6-1.042 0.25 2.234c-1.316 1.371-2.349 3.136-2.975 5.145 0.466-4.195 1.57-7.898 3.094-10.663z"></path>
+                  </svg>
+              </h2>
+              <p class="textshadow mb-8 text-lg font-normal text-white lg:text-xl dark:text-gray-400">
+                of our wonderful meals curated by <br><strong>Chef Gerd</strong>
+              </p>            
+            </div>
+            <div class="">
+              <div class="image-wrapper h-0 pb-[100%] overflow-hidden shadow-xl rounded-full  shadow-4xl">
+                <img src="images/food_gerd/high-res/IMG_3948.jpg"
+                  alt="Chef Gerd" class="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="bg-geebung-100 dark:bg-gray-900">
         <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
           <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
             <h2
-              class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white"
-            >
+              class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
               Choose your plan
             </h2>
             <p
-              class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400"
-            >
+              class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">
               We focus on delivering the best recipies you can get.
             </p>
           </div>
           <div
-            class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0"
-          >
+            class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
             <!-- Pricing Card -->
             <div class="pricing-card">
               <h3 class="mb-4 text-2xl font-semibold">Starter</h3>
@@ -448,13 +510,11 @@
                     class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                    xmlns="http://www.w3.org/2000/svg">
                     <path
                       fill-rule="evenodd"
                       d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clip-rule="evenodd"
-                    ></path>
+                      clip-rule="evenodd"></path>
                   </svg>
                   <span>hundreds of easy recipes</span>
                 </li>
@@ -464,13 +524,11 @@
                     class="w-5 h-5"
                     fill="currentColor"
                     viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                    xmlns="http://www.w3.org/2000/svg">
                     <path
                       fill-rule="evenodd"
                       d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                      clip-rule="evenodd"
-                    ></path>
+                      clip-rule="evenodd"></path>
                   </svg>
                   <span>tips for complete menus</span>
                 </li>
@@ -480,23 +538,18 @@
                     class="w-5 h-5"
                     fill="currentColor"
                     viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                    xmlns="http://www.w3.org/2000/svg">
                     <path
                       fill-rule="evenodd"
                       d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                      clip-rule="evenodd"
-                    ></path>
+                      clip-rule="evenodd"></path>
                   </svg>
-                  <span
-                    >special recipies curated by our
-                    <span class="font-semibold">Master Chef</span></span
-                  >
+                  <span>special recipies curated by our
+                    <span class="font-semibold">Master Chef</span></span>
                 </li>
               </ul>
-              <a href="#contact" class="wbs-button wbs-button-primary"
-                >Get started</a
-              >
+              <a href="#contact" class="wbs-button wbs-button-primary">Get
+                started</a>
             </div>
             <!-- Pricing Card -->
             <div class="pricing-card">
@@ -516,13 +569,11 @@
                     class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                    xmlns="http://www.w3.org/2000/svg">
                     <path
                       fill-rule="evenodd"
                       d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clip-rule="evenodd"
-                    ></path>
+                      clip-rule="evenodd"></path>
                   </svg>
                   <span>hundreds of easy recipes</span>
                 </li>
@@ -532,13 +583,11 @@
                     class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                    xmlns="http://www.w3.org/2000/svg">
                     <path
                       fill-rule="evenodd"
                       d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clip-rule="evenodd"
-                    ></path>
+                      clip-rule="evenodd"></path>
                   </svg>
                   <span>tips for complete menus</span>
                 </li>
@@ -548,23 +597,18 @@
                     class="w-5 h-5"
                     fill="currentColor"
                     viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                    xmlns="http://www.w3.org/2000/svg">
                     <path
                       fill-rule="evenodd"
                       d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                      clip-rule="evenodd"
-                    ></path>
+                      clip-rule="evenodd"></path>
                   </svg>
-                  <span
-                    >special recipies curated by our
-                    <span class="font-semibold">Master Chef</span></span
-                  >
+                  <span>special recipies curated by our
+                    <span class="font-semibold">Master Chef</span></span>
                 </li>
               </ul>
-              <a href="#contact" class="wbs-button wbs-button-primary"
-                >Get started</a
-              >
+              <a href="#contact" class="wbs-button wbs-button-primary">Get
+                started</a>
             </div>
 
             <!-- Pricing Card -->
@@ -585,13 +629,11 @@
                     class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                    xmlns="http://www.w3.org/2000/svg">
                     <path
                       fill-rule="evenodd"
                       d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clip-rule="evenodd"
-                    ></path>
+                      clip-rule="evenodd"></path>
                   </svg>
                   <span>hundreds of easy recipes</span>
                 </li>
@@ -601,13 +643,11 @@
                     class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                    xmlns="http://www.w3.org/2000/svg">
                     <path
                       fill-rule="evenodd"
                       d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clip-rule="evenodd"
-                    ></path>
+                      clip-rule="evenodd"></path>
                   </svg>
                   <span>tips for complete menus</span>
                 </li>
@@ -617,23 +657,18 @@
                     class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                    xmlns="http://www.w3.org/2000/svg">
                     <path
                       fill-rule="evenodd"
                       d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clip-rule="evenodd"
-                    ></path>
+                      clip-rule="evenodd"></path>
                   </svg>
-                  <span
-                    >special recipies curated by our
-                    <span class="font-semibold">Master Chef</span></span
-                  >
+                  <span>special recipies curated by our
+                    <span class="font-semibold">Master Chef</span></span>
                 </li>
               </ul>
-              <a href="#contact" class="wbs-button wbs-button-primary"
-                >Get started</a
-              >
+              <a href="#contact" class="wbs-button wbs-button-primary">Get
+                started</a>
             </div>
           </div>
         </div>
@@ -642,56 +677,47 @@
       <section id="contact" class="bg-white dark:bg-gray-900">
         <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
           <h2
-            class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white"
-          >
+            class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
             Get started now
           </h2>
           <p
-            class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl"
-          >
+            class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
             Subscribe now to get access to all our wonderful recipies.
           </p>
           <form action="#" class="space-y-8">
             <div>
               <label
                 for="email"
-                class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-                >Your email</label
-              >
+                class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your
+                email</label>
               <input
                 type="email"
                 id="email"
                 class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
                 placeholder="name@yoursite.com"
-                required
-              />
+                required />
             </div>
             <div>
               <label
                 for="subject"
-                class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-                >Subject</label
-              >
+                class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
               <input
                 type="text"
                 id="subject"
                 class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
                 placeholder="Let us know how we can help you"
-                required
-              />
+                required />
             </div>
             <div class="sm:col-span-2">
               <label
                 for="message"
-                class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400"
-                >Your message</label
-              >
+                class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your
+                message</label>
               <textarea
                 id="message"
                 rows="6"
                 class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-                placeholder="Leave a comment..."
-              ></textarea>
+                placeholder="Leave a comment..."></textarea>
             </div>
             <button type="submit" class="wbs-button wbs-button-primary">
               Send message
@@ -701,67 +727,81 @@
       </section>
     </main>
 
-        <!-- Footer   -->
-        <footer class="p-4 bg-mexican-red-700 md:p-8 lg:p-10 dark:bg-gray-800">
-            <div class="mx-auto max-w-screen-xl text-center">
-                <ul
-                    class="flex flex-wrap justify-center items-center mb-6 text-black dark:text-white">
-                    <li>
-                        <a href="#"
-                            class="mr-4 hover:underline md:mr-6 ">Home</a>
-                    </li>
-                    <li>
-                        <a href="#"
-                            class="mr-4 hover:underline md:mr-6">Recipies</a>
-                    </li>
-                    <li>
-                        <a href="#"
-                            class="mr-4 hover:underline md:mr-6 ">Categories</a>
-                    </li>
-                    <li>
-                        <a href="#"
-                            class="mr-4 hover:underline md:mr-6 ">About</a>
-                    </li>
-                </ul>
+    <!-- Footer   -->
+    <footer id="footer"
+      class="p-4 bg-mexican-red-700 md:p-8 lg:p-10 dark:bg-gray-800">
+      <div class="mx-auto max-w-screen-xl text-center">
+        <ul
+          class="flex flex-wrap justify-center items-center mb-6 text-black dark:text-white">
+          <li>
+            <a href="#"
+              class="mr-4 hover:underline md:mr-6 ">Home</a>
+          </li>
+          <li>
+            <a href="#"
+              class="mr-4 hover:underline md:mr-6">Recipies</a>
+          </li>
+          <li>
+            <a href="#"
+              class="mr-4 hover:underline md:mr-6 ">Categories</a>
+          </li>
+          <li>
+            <a href="#"
+              class="mr-4 hover:underline md:mr-6 ">About</a>
+          </li>
+        </ul>
         <!-- Social Media Links Section -->
         <div class="flex justify-center space-x-6 mb-6">
-            <!-- Facebook -->
-            <a href="#" class="text-black hover:text-gray-100 dark:hover:text-white" aria-label="Facebook">
-                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M22.675 0H1.325C.595 0 0 .595 0 1.325v21.351C0 23.406.595 24 1.325 24H12.81V14.708h-3.03v-3.635h3.03V8.34c0-3.007 1.792-4.663 4.533-4.663 1.313 0 2.686.235 2.686.235v2.981h-1.513c-1.492 0-1.954.93-1.954 1.883v2.237h3.329l-.532 3.635h-2.797V24h5.477c.73 0 1.325-.594 1.325-1.325V1.325C24 .595 23.406 0 22.675 0z"/>
-                </svg>
-            </a>
+          <!-- Facebook -->
+          <a href="#"
+            class="text-black hover:text-gray-100 dark:hover:text-white"
+            aria-label="Facebook">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M22.675 0H1.325C.595 0 0 .595 0 1.325v21.351C0 23.406.595 24 1.325 24H12.81V14.708h-3.03v-3.635h3.03V8.34c0-3.007 1.792-4.663 4.533-4.663 1.313 0 2.686.235 2.686.235v2.981h-1.513c-1.492 0-1.954.93-1.954 1.883v2.237h3.329l-.532 3.635h-2.797V24h5.477c.73 0 1.325-.594 1.325-1.325V1.325C24 .595 23.406 0 22.675 0z" />
+            </svg>
+          </a>
 
-            <!-- Instagram -->
-            <a href="#" class="text-black hover:text-gray-100 dark:hover:text-white" aria-label="Instagram">
-                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 2.163c3.204 0 3.584.012 4.849.07 1.366.062 2.633.321 3.608 1.297.975.975 1.235 2.243 1.297 3.608.059 1.266.07 1.645.07 4.849s-.012 3.584-.07 4.849c-.062 1.366-.321 2.633-1.297 3.608-.975.975-2.243 1.235-3.608 1.297-1.266.059-1.645.07-4.849.07s-3.584-.012-4.849-.07c-1.366-.062-2.633-.321-3.608-1.297-.975-.975-1.235-2.243-1.297-3.608-.059-1.266-.07-1.645-.07-4.849s.012-3.584.07-4.849c.062-1.366.321-2.633 1.297-3.608.975-.975 2.243-1.235 3.608-1.297 1.266-.059 1.645-.07 4.849-.07zm0-2.163C8.756 0 8.322.014 7.053.073 5.782.133 4.513.394 3.438 1.469 2.362 2.544 2.102 3.813 2.043 5.084 1.983 6.353 1.97 6.787 1.97 12s.014 5.647.073 6.917c.059 1.27.32 2.539 1.395 3.614 1.075 1.075 2.343 1.336 3.614 1.395 1.27.059 1.704.073 6.917.073s5.647-.014 6.917-.073c1.27-.059 2.539-.32 3.614-1.395 1.075-1.075 1.336-2.343 1.395-3.614.059-1.27.073-1.704.073-6.917s-.014-5.647-.073-6.917c-.059-1.27-.32-2.539-1.395-3.614C19.747.394 18.478.133 17.208.073 15.939.014 15.504 0 12 0z"/>
-                    <path d="M12 5.838A6.162 6.162 0 1 0 18.162 12 6.169 6.169 0 0 0 12 5.838zm0 10.162A4 4 0 1 1 16 12a4.006 4.006 0 0 1-4 4z"/>
-                    <circle cx="18.406" cy="5.594" r="1.44"/>
-                </svg>
-            </a>
+          <!-- Instagram -->
+          <a href="#"
+            class="text-black hover:text-gray-100 dark:hover:text-white"
+            aria-label="Instagram">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.849.07 1.366.062 2.633.321 3.608 1.297.975.975 1.235 2.243 1.297 3.608.059 1.266.07 1.645.07 4.849s-.012 3.584-.07 4.849c-.062 1.366-.321 2.633-1.297 3.608-.975.975-2.243 1.235-3.608 1.297-1.266.059-1.645.07-4.849.07s-3.584-.012-4.849-.07c-1.366-.062-2.633-.321-3.608-1.297-.975-.975-1.235-2.243-1.297-3.608-.059-1.266-.07-1.645-.07-4.849s.012-3.584.07-4.849c.062-1.366.321-2.633 1.297-3.608.975-.975 2.243-1.235 3.608-1.297 1.266-.059 1.645-.07 4.849-.07zm0-2.163C8.756 0 8.322.014 7.053.073 5.782.133 4.513.394 3.438 1.469 2.362 2.544 2.102 3.813 2.043 5.084 1.983 6.353 1.97 6.787 1.97 12s.014 5.647.073 6.917c.059 1.27.32 2.539 1.395 3.614 1.075 1.075 2.343 1.336 3.614 1.395 1.27.059 1.704.073 6.917.073s5.647-.014 6.917-.073c1.27-.059 2.539-.32 3.614-1.395 1.075-1.075 1.336-2.343 1.395-3.614.059-1.27.073-1.704.073-6.917s-.014-5.647-.073-6.917c-.059-1.27-.32-2.539-1.395-3.614C19.747.394 18.478.133 17.208.073 15.939.014 15.504 0 12 0z" />
+              <path
+                d="M12 5.838A6.162 6.162 0 1 0 18.162 12 6.169 6.169 0 0 0 12 5.838zm0 10.162A4 4 0 1 1 16 12a4.006 4.006 0 0 1-4 4z" />
+              <circle cx="18.406" cy="5.594" r="1.44" />
+            </svg>
+          </a>
 
-            <!-- YouTube -->
-            <a href="#" class="text-black hover:text-gray-100 dark:hover:text-white" aria-label="YouTube">
-                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M23.498 6.186a2.998 2.998 0 0 0-2.115-2.115C19.488 3.525 12 3.525 12 3.525s-7.488 0-9.383.546a2.998 2.998 0 0 0-2.115 2.115C0 8.081 0 12 0 12s0 3.919.502 5.814a2.998 2.998 0 0 0 2.115 2.115C4.512 20.475 12 20.475 12 20.475s7.488 0 9.383-.546a2.998 2.998 0 0 0 2.115-2.115C24 15.919 24 12 24 12s0-3.919-.502-5.814zM9.546 15.682V8.318L15.818 12 9.546 15.682z"/>
-                </svg>
-            </a>
+          <!-- YouTube -->
+          <a href="#"
+            class="text-black hover:text-gray-100 dark:hover:text-white"
+            aria-label="YouTube">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M23.498 6.186a2.998 2.998 0 0 0-2.115-2.115C19.488 3.525 12 3.525 12 3.525s-7.488 0-9.383.546a2.998 2.998 0 0 0-2.115 2.115C0 8.081 0 12 0 12s0 3.919.502 5.814a2.998 2.998 0 0 0 2.115 2.115C4.512 20.475 12 20.475 12 20.475s7.488 0 9.383-.546a2.998 2.998 0 0 0 2.115-2.115C24 15.919 24 12 24 12s0-3.919-.502-5.814zM9.546 15.682V8.318L15.818 12 9.546 15.682z" />
+            </svg>
+          </a>
 
-            <!-- Pinterest -->
-            <a href="#" class="text-black hover:text-gray-100 dark:hover:text-white" aria-label="Pinterest">
-                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 0C5.373 0 0 5.373 0 12c0 4.99 3.657 9.129 8.458 10.134-.117-.859-.222-2.179.047-3.116.243-.899 1.563-5.729 1.563-5.729s-.398-.797-.398-1.973c0-1.847 1.072-3.229 2.407-3.229 1.135 0 1.684.851 1.684 1.869 0 1.138-.724 2.843-1.098 4.424-.312 1.312.66 2.383 1.955 2.383 2.344 0 3.916-2.966 3.916-6.466 0-2.669-1.798-4.67-5.076-4.67-3.692 0-5.99 2.761-5.99 5.835 0 1.067.313 1.824.797 2.397.223.267.254.373.173.68-.056.224-.187.76-.244.974-.08.308-.324.419-.598.305-1.675-.678-2.431-2.493-2.431-4.535 0-3.368 2.847-7.421 8.481-7.421 4.537 0 7.533 3.292 7.533 6.832 0 4.687-2.606 8.193-6.457 8.193-1.29 0-2.505-.685-2.92-1.469l-.797 3.037c-.29 1.103-1.076 2.482-1.612 3.323.33.101.674.154 1.027.154 6.627 0 12-5.373 12-12S18.627 0 12 0z"/>
-                </svg>
-            </a>
+          <!-- Pinterest -->
+          <a href="#"
+            class="text-black hover:text-gray-100 dark:hover:text-white"
+            aria-label="Pinterest">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M12 0C5.373 0 0 5.373 0 12c0 4.99 3.657 9.129 8.458 10.134-.117-.859-.222-2.179.047-3.116.243-.899 1.563-5.729 1.563-5.729s-.398-.797-.398-1.973c0-1.847 1.072-3.229 2.407-3.229 1.135 0 1.684.851 1.684 1.869 0 1.138-.724 2.843-1.098 4.424-.312 1.312.66 2.383 1.955 2.383 2.344 0 3.916-2.966 3.916-6.466 0-2.669-1.798-4.67-5.076-4.67-3.692 0-5.99 2.761-5.99 5.835 0 1.067.313 1.824.797 2.397.223.267.254.373.173.68-.056.224-.187.76-.244.974-.08.308-.324.419-.598.305-1.675-.678-2.431-2.493-2.431-4.535 0-3.368 2.847-7.421 8.481-7.421 4.537 0 7.533 3.292 7.533 6.832 0 4.687-2.606 8.193-6.457 8.193-1.29 0-2.505-.685-2.92-1.469l-.797 3.037c-.29 1.103-1.076 2.482-1.612 3.323.33.101.674.154 1.027.154 6.627 0 12-5.373 12-12S18.627 0 12 0z" />
+            </svg>
+          </a>
         </div>
-                <span
-                    class="text-sm text-black sm:text-center dark:text-gray-400">©
-                    2024-2025 <a href="#" class="hover:underline">Love at first bite™</a>.
-                    All Rights Reserved.</span>
-            </div>
-        </footer>
-    </body>
+        <span
+          class="text-sm text-black sm:text-center dark:text-gray-400">©
+          2024-2025 <a href="#" class="hover:underline">Love at first bite™</a>.
+          All Rights Reserved.</span>
+      </div>
+    </footer>
+  </body>
 
   <script>
     const elementTargetMobileMenu = document.getElementById("mobile-menu-2");
